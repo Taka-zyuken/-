@@ -1,0 +1,7 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App'; // メインのReactコンポーネント
+
+ReactDOM.render(<React.StrictMode> <App /> </React.StrictMode>,
+  document.getElementById('root') // ルートDOM要素にアプリを表示
+);
